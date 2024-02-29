@@ -10,10 +10,10 @@ Resources:
       NetworkMode: awsvpc
       RequiresCompatibilities:
         - FARGATE
-      ExecutionRoleArn: 'arn:aws:iam::959309513507:role/LabRole'
+      ExecutionRoleArn: 'arn:aws:iam::992382542760:role/LabRole'
       ContainerDefinitions:
         - Name: api-productos
-          Image: "959309513507.dkr.ecr.us-east-1.amazonaws.com/api-productos:latest"
+          Image: "992382542760.dkr.ecr.us-east-1.amazonaws.com/api-productos:latest"
           Cpu: 512
           Memory: 1024
           PortMappings:
